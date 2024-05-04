@@ -1,0 +1,84 @@
+.risa {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+#parrafo_enserio{
+    display: flex;
+}
+.introduccion{
+    display: flex;
+}
+
+.numeros_cumple{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, orange, yellow);
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+.pagina_con_fotos{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, orange, yellow);
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    width: 15%;
+    height: 10%;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+}
+div{
+    overflow: auto;
+}
+
+.parrafo_corazon{
+    display: flex;
+    justify-content: center;
+}
+
+#mariaL{
+    margin-left: 15px;
+}
+#dedicatoria_breve_maria{
+    margin-left: 0;
+}
+
+.corazon{
+    
+    width: 15em;
+    height: 15em;
+    
+}
+p {
+    margin-left: 15px;
+}
+
