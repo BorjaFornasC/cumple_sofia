@@ -6,9 +6,17 @@
 
 #parrafo_enserio{
     display: flex;
+    margin-left: 115px;
 }
+
 .introduccion{
     display: flex;
+}
+
+.introduccion_portada{
+    display: flex;
+    margin-left: 115px;
+    margin-right: 15px;
 }
 
 .numeros_cumple{
@@ -41,9 +49,20 @@ h1{
 }
 
 .imagen{
-    width: 15%;
-    height: 10%;
-    padding-bottom: 10px;
+    width: 25%;
+    height: 25%;
+    margin-bottom: 10px;
+}
+
+.imagen_pocas{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.imagen_portada{
+    width: 50%;
+    height: 50%;
 }
 
 a{
@@ -55,6 +74,8 @@ a{
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 div{
     overflow: auto;
@@ -65,20 +86,69 @@ div{
     justify-content: center;
 }
 
-#mariaL{
+.gente{
     margin-left: 15px;
 }
-#dedicatoria_breve_maria{
+
+#dedicatoria_breve{
     margin-left: 0;
+    display: flex;
 }
 
 .corazon{
-    
     width: 15em;
     height: 15em;
-    
 }
+
 p {
     margin-left: 15px;
 }
 
+.todos{
+    margin-left: 100px;
+}
+
+.pie_volver{
+    margin-left: 115px;
+}
+
+.feminista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Estilos para los botones */
+.feminista button {
+    background-color: #ff9900; /* Color de fondo naranja */
+    border: none;
+    color: #fff; /* Color del texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave */
+    margin: 10px; /* Espaciado exterior */
+}
+
+/* Estilos cuando se pasa el ratón por encima */
+.feminista button:hover {
+    background-color: #ffcc00; /* Color de fondo naranja más claro */
+}
+
+/* Estilos para los enlaces dentro de los botones */
+.feminista button a {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: inherit; /* Heredar el color del texto */
+}
+
+/* Estilos para los enlaces dentro de los botones cuando se pasa el ratón por encima */
+.feminista button a:hover {
+    text-decoration: underline; /* Subrayar el texto del enlace */
+}
+
+audio#miAudio {
+    display: block !important; /* Asegura que el elemento de audio sea visible */
+    width: auto !important; /* Ajusta el ancho según sea necesario */
+    height: auto !important; /* Ajusta la altura según sea necesario */
+}
